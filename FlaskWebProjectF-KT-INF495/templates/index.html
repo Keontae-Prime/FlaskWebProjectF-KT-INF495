@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <p class="lead">Hello This program will take your input of 1-7 and return a proverb according to the number you entered.</p>
+    <form method="POST">
+        <input name='number' />
+        <input type="submit" value="Submit"/>
+
+    </form>
+    <p>{{message}}</p>
+</div>
+
+{% endblock %}
